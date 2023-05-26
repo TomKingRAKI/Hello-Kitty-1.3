@@ -1,0 +1,1823 @@
+body {
+    background-image: url('tloglownej.jpeg');
+    background-repeat: repeat;
+    background-size: 100%;
+    overflow-y: hidden;
+}
+
+#game {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: pink;
+    opacity: 90%;
+    position: absolute;
+    margin-top: none;
+    margin-left: none;
+    z-index: -1;
+    margin: 0;
+}
+
+.calosc {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    top: 0;
+    left: 0;
+    margin-bottom: 0%;
+}
+
+.hellokittyblock {
+    height: 100%;
+    width: 31.5%;
+    margin-top: 0%;
+    top: -10px;
+    left: 0px;
+    border: 10px solid rgb(138, 64, 77);
+    position: absolute;
+    
+}
+
+.points {
+    height: 140px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgb(216, 163, 172);;
+    z-index: 1;
+}
+#punkty {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+	font-size: 700%;
+    z-index: 2;
+}
+
+#obrazek {
+	width: 50%;
+	height: 350px;
+    margin-top: 90px;
+    margin-left: 23%;
+	cursor: pointer;
+    
+    transition: transform 0.1s ease-in-out;
+}
+
+#obrazek :hover {
+    transform: scale(1.1);
+}
+
+#resetButton {
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+
+
+
+
+.hellokittycityblock {
+    position: absolute;
+    margin-left: 31.5%;
+    top: -10px;
+    border: 10px solid rgb(138, 64, 77);
+    height: 100%;
+    width: 44.5%;
+}
+
+.options {
+    height: 100px;
+    background-color: pink;
+    margin-top: -16px;
+    top: 0;
+    margin-left: 5px;
+}
+
+.textoptions {
+    margin-left: 30px;
+    margin-top: 25px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    top: 0;
+    font-size: 40px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.textinfo {
+    margin-left: 68%;
+    margin-top: 25px;
+    position: absolute;
+    font-size: 40px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: red;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+#bakerytlo {
+    width: 100%;
+    height: 130px;
+    top: 0;
+    margin-top: -8px; 
+    margin-left: 0.3%;
+    visibility: hidden;
+}
+
+#bakeryhr {
+    margin-top: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+    #firstbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 20px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #secondbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 20px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #thirdbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 70px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #fourbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 70px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #fivebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 120px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #sixbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 120px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #sevenbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 170px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #eightbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 170px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #ninebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 220px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #tenbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 220px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #elevenbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 270px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #twelwbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 270px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #trzynasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 320px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #czternasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 320px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #pietnasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 370px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #szesnasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 370px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #siedemnasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 420px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #osiemnasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 420px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #dziewietnasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 470px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #dwadziesciabuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 470px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #twentyonebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 520px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #twentytwobuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 520px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #twentythreebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 570px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #twentyfourbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 570px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #twentyfivebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 620px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #twentysixbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 620px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #twentysevenbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 670px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #twentyeightbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 670px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #twentyninebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 720px;
+        visibility: hidden;
+        top: 120px;
+    }
+
+    #thirtybuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 720px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+
+
+
+
+
+#schooltlo {
+    width: 100%;
+    height: 130px;
+    top: 0;
+    margin-top: -8px;
+    margin-left: 0.3%;   
+    visibility: hidden;
+}
+
+#schoolhr {
+    margin-top: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+    #firstbuyschool {
+        height: 50px;
+        top: 260px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 20px;
+        visibility: hidden;
+    }
+
+    #secondbuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 20px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #thirdbuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 70px;
+        visibility: hidden;
+    }
+
+    #fourbuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 70px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #fivebuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 120px;
+        visibility: hidden;
+    }
+
+    #sixbuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 120px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #sevenbuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 170px;
+        visibility: hidden;
+    }
+
+    #eightbuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 170px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #ninebuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 220px;
+        visibility: hidden;
+    }
+
+    #tenbuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 220px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #elevenbuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 270px;
+        visibility: hidden;
+    }
+
+    #twelwbuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 270px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #trzynasciebuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 320px;
+        visibility: hidden;
+    }
+
+    #czternasciebuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 320px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #pietnasciebuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 370px;
+        visibility: hidden;
+    }
+
+    #szesnasciebuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 370px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #siedemnasciebuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 420px;
+        visibility: hidden;
+    }
+
+    #osiemnasciebuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 420px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #dziewietnasciebuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 470px;
+        visibility: hidden;
+    }
+
+    #dwadziesciabuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 470px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #twentyonebuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 520px;
+        visibility: hidden;
+    }
+
+    #twentytwobuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 520px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #twentythreebuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 570px;
+        visibility: hidden;
+    }
+
+    #twentyfourbuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 570px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #twentyfivebuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 620px;
+        visibility: hidden;
+    }
+
+    #twentysixbuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 620px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #twentysevenbuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 670px;
+        visibility: hidden;
+    }
+
+    #twentyeightbuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 670px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+    #twentyninebuyschool {
+        height: 50px;
+        width: 5%;
+        top: 260px;
+        position: absolute;
+        z-index: 2;
+        left: 720px;
+        visibility: hidden;
+    }
+
+    #thirtybuyschool {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 720px;
+        top: 310px;
+        visibility: hidden;
+    }
+
+
+
+
+
+#cinematlo {
+    width: 100%;
+    height: 130px;
+    top: 0;
+    margin-top: -8px;
+    margin-left: 0.3%; 
+    visibility: hidden;
+}
+
+#cinemahr {
+    margin-top: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+    #firstbuycinema {
+        height: 70px;
+        top: 390px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 20px;
+        visibility: hidden;
+    }
+
+    #secondbuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 20px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #thirdbuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 70px;
+        visibility: hidden;
+    }
+
+    #fourbuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 70px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #fivebuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 120px;
+        visibility: hidden;
+    }
+
+    #sixbuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 120px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #sevenbuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 170px;
+        visibility: hidden;
+    }
+
+    #eightbuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 170px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #ninebuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 220px;
+        visibility: hidden;
+    }
+
+    #tenbuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 220px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #elevenbuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 270px;
+        visibility: hidden;
+    }
+
+    #twelwbuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 270px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #trzynasciebuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 320px;
+        visibility: hidden;
+    }
+
+    #czternasciebuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 320px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #pietnasciebuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 370px;
+        visibility: hidden;
+    }
+
+    #szesnasciebuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 370px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #siedemnasciebuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 420px;
+        visibility: hidden;
+    }
+
+    #osiemnasciebuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 420px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #dziewietnasciebuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 470px;
+        visibility: hidden;
+    }
+
+    #dwadziesciabuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 470px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #twentyonebuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 520px;
+        visibility: hidden;
+    }
+
+    #twentytwobuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 520px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #twentythreebuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 570px;
+        visibility: hidden;
+    }
+
+    #twentyfourbuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 570px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #twentyfivebuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 620px;
+        visibility: hidden;
+    }
+
+    #twentysixbuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 620px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #twentysevenbuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 670px;
+        visibility: hidden;
+    }
+
+    #twentyeightbuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 670px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+    #twentyninebuycinema {
+        height: 70px;
+        width: 5%;
+        top: 390px;
+        position: absolute;
+        z-index: 2;
+        left: 720px;
+        visibility: hidden;
+    }
+
+    #thirtybuycinema {
+        height: 70px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 720px;
+        top: 440px;
+        visibility: hidden;
+    }
+
+
+
+
+
+
+    #clubtlo {
+        width: 100%;
+        height: 130px;
+        top: 0;
+        margin-top: -8px;
+        margin-left: 0.3%; 
+        visibility: hidden;
+    }
+    
+    #clubhr {
+        margin-top: 0;
+        top: 0;
+        visibility: hidden;
+    }
+    
+        #firstbuyclub {
+            height: 70px;
+            top: 530px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 20px;
+            visibility: hidden;
+        }
+    
+        #secondbuyclub {
+            height: 65px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 20px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #thirdbuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 70px;
+            visibility: hidden;
+        }
+    
+        #fourbuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 70px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #fivebuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 120px;
+            visibility: hidden;
+        }
+    
+        #sixbuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 120px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #sevenbuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 170px;
+            visibility: hidden;
+        }
+    
+        #eightbuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 170px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #ninebuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 220px;
+            visibility: hidden;
+        }
+    
+        #tenbuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 220px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #elevenbuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 270px;
+            visibility: hidden;
+        }
+    
+        #twelwbuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 270px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #trzynasciebuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 320px;
+            visibility: hidden;
+        }
+    
+        #czternasciebuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 320px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #pietnasciebuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 370px;
+            visibility: hidden;
+        }
+    
+        #szesnasciebuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 370px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #siedemnasciebuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 420px;
+            visibility: hidden;
+        }
+    
+        #osiemnasciebuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 420px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #dziewietnasciebuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 470px;
+            visibility: hidden;
+        }
+    
+        #dwadziesciabuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 470px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #twentyonebuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 520px;
+            visibility: hidden;
+        }
+    
+        #twentytwobuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 520px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #twentythreebuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 570px;
+            visibility: hidden;
+        }
+    
+        #twentyfourbuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 570px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #twentyfivebuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 620px;
+            visibility: hidden;
+        }
+    
+        #twentysixbuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 620px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #twentysevenbuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 670px;
+            visibility: hidden;
+        }
+    
+        #twentyeightbuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 670px;
+            top: 590px;
+            visibility: hidden;
+        }
+    
+        #twentyninebuyclub {
+            height: 70px;
+            width: 5%;
+            top: 530px;
+            position: absolute;
+            z-index: 2;
+            left: 720px;
+            visibility: hidden;
+        }
+    
+        #thirtybuyclub {
+            height: 70px;
+            width: 5%;
+            position: absolute;
+            z-index: 2;
+            left: 720px;
+            top: 590px;
+            visibility: hidden;
+        }
+
+
+
+
+
+
+        #japanesetlo {
+            width: 100%;
+            height: 130px;
+            top: 0;
+            margin-top: -8px;
+            margin-left: 0.3%; 
+            visibility: hidden;
+        }
+        
+        #japanesehr {
+            margin-top: 0;
+            top: 0;
+            visibility: hidden;
+        }
+        
+            #firstbuyjapanese {
+                height: 70px;
+                top: 675px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 20px;
+                visibility: hidden;
+            }
+        
+            #secondbuyjapanese {
+                height: 65px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 20px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #thirdbuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 70px;
+                visibility: hidden;
+            }
+        
+            #fourbuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 70px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #fivebuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 120px;
+                visibility: hidden;
+            }
+        
+            #sixbuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 120px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #sevenbuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 170px;
+                visibility: hidden;
+            }
+        
+            #eightbuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 170px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #ninebuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 220px;
+                visibility: hidden;
+            }
+        
+            #tenbuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 220px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #elevenbuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 270px;
+                visibility: hidden;
+            }
+        
+            #twelwbuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 270px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #trzynasciebuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 320px;
+                visibility: hidden;
+            }
+        
+            #czternasciebuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 320px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #pietnasciebuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 370px;
+                visibility: hidden;
+            }
+        
+            #szesnasciebuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 370px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #siedemnasciebuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 420px;
+                visibility: hidden;
+            }
+        
+            #osiemnasciebuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 420px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #dziewietnasciebuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 470px;
+                visibility: hidden;
+            }
+        
+            #dwadziesciabuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 470px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #twentyonebuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 520px;
+                visibility: hidden;
+            }
+        
+            #twentytwobuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 520px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #twentythreebuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 570px;
+                visibility: hidden;
+            }
+        
+            #twentyfourbuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 570px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #twentyfivebuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 620px;
+                visibility: hidden;
+            }
+        
+            #twentysixbuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 620px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #twentysevenbuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 670px;
+                visibility: hidden;
+            }
+        
+            #twentyeightbuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 670px;
+                top: 735px;
+                visibility: hidden;
+            }
+        
+            #twentyninebuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                top: 675px;
+                position: absolute;
+                z-index: 2;
+                left: 720px;
+                visibility: hidden;
+            }
+        
+            #thirtybuyjapanese {
+                height: 70px;
+                width: 4,7%;
+                position: absolute;
+                z-index: 2;
+                left: 720px;
+                top: 735px;
+                visibility: hidden;
+            }
+
+
+
+
+.upgradeblock {
+    margin-left: 76.5%;
+    height: 100%;
+    top: -10px;
+    width: 22%;
+    position: absolute;
+    border: 10px solid rgb(138, 64, 77);
+    
+}
+
+.upgradeblock hr {
+    margin-top: 0;
+    top: 0;
+}
+
+.textstore {
+    width: 100%;
+    background-color: rgb(212, 162, 170);
+    height: 100px;
+}
+.textstore p {
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 44%;
+    font-size: 40px;
+}
+
+.clickpersecondstore {
+    position: relative;
+    margin-top: -8px;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(226, 155, 167);
+}
+
+#wiecejPunktow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.howmanybuy {
+    margin-top: -8px;
+    top: 0;
+}
+
+.howmanybuy button {
+    width: 25%;
+    height: 80px;
+    cursor: pointer;
+}
+
+.autoclickshop {
+    margin-top: -8px;
+    height: 67.4%;
+    background-color: brown;
+}
+
+#bakeryupgrade {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+
+#schoolupgrade {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#cinemaupgrade {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#clubupgrade {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#japaneseupgrade {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+button :hover {
+    transform: scale(1.1);
+}
+
